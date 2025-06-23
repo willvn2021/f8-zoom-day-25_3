@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Check All JS</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="selector-container">
+                <header class="selector-header">
+                    <div class="selector-header__left">
+                        <input type="checkbox" id="check-all" />
+                        <label for="check-all">Select All</label>
+                    </div>
+                    <div class="selected-counter" id="selected-counter"></div>
+                </header>
+                <main>
+                    <ul class="selector-list">
+                        <li class="selector-item">
+                            <input
+                                type="checkbox"
+                                name="mimetype"
+                                value="Text"
+                                id="mimetype"
+                            />
+                            <label for="mimetype">Application</label>
+                        </li>
+                        <li class="selector-item">
+                            <input
+                                type="checkbox"
+                                name="mimetype"
+                                value="Text"
+                                id="mimetype"
+                            />
+                            <label for="mimetype">Text</label>
+                        </li>
+                        <li class="selector-item">
+                            <input
+                                type="checkbox"
+                                name="mimetype"
+                                value="Text"
+                                id="mimetype"
+                            />
+                            <label for="mimetype">Word</label>
+                        </li>
+                    </ul>
+                </main>
+            </div>
+        </div>
+        <script src="./assets/js/check-all.js"></script>
+    </body>
+</html>
